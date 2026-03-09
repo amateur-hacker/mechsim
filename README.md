@@ -13,7 +13,7 @@
 
 <br>
 
-https://github.com/user-attachments/assets/622ff7b3-11c9-4f51-be4d-5f19565adbf5
+<https://github.com/user-attachments/assets/622ff7b3-11c9-4f51-be4d-5f19565adbf5>
 
 <div align="center">
 <p align="center">The video shows just a few of the many options</p>
@@ -34,7 +34,7 @@ mechsim -s turquoise -V 60  # choose soundpack turquoise at 60% volume
 ### Arch Linux (AUR)
 
 ```bash
-yay -S mechsim
+makepkg -si # NOTE: add input to your user's group
 ```
 
 ### Build From Source
@@ -62,8 +62,7 @@ sudo make install
       mechsim -s cherrymx-blue-abs  # Use Cherry MX Blue ABS sound
       mechsim -l                    # List all available sounds
 
-
-## Available Sounds:
+## Available Sounds
 
 - nk-cream
 - cherrymx-black-abs
@@ -84,7 +83,6 @@ sudo make install
 - cherrymx-blue-pbt
 - mxblue-travel
 
-
 ## Dependencies
 
 - build-essential
@@ -96,8 +94,7 @@ sudo make install
 - libevdev-dev
 - libudev-d
 
-
-## Motivation 
+## Motivation
 
 The motivation behind this project was that I couldn't hear my keybaord presses
 in screen-recordings or when I had headphones on. I tried other programs such
