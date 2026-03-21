@@ -22,7 +22,7 @@ makedepends=(
   'libsndfile'
 )
 
-source=("$pkgname::git+https://github.com/amateur-hacker/mechsim.git")
+source=("$pkgname::git+$url.git")
 sha256sums=('SKIP')
 
 build() {
